@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout_card_view"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minHeight="@dimen/review_item_min_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="@dimen/review_item_min_height"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:tint="@color/colorBlue"
+                    android:src="@drawable/ic_person_black_48dp"
+                    android:layout_width="@dimen/review_item_avatar_size"
+                    android:layout_height="@dimen/review_item_avatar_size" />
+            </RelativeLayout>
+            <LinearLayout
+                android:padding="@dimen/interval_1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_name"
+                    android:text=""
+                    android:textAppearance="@style/TextTitleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <RatingBar
+                    android:id="@+id/widget_rating"
+                    android:numStars="5"
+                    android:layout_marginTop="2dp"
+                    style="@style/ShowcaseRatingBarSmall"
+                    android:theme="@style/RatingBarDefaultTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rating="3.4" />
+                <TextView
+                    android:id="@+id/text_review"
+                    android:text=""
+                    android:layout_marginTop="@dimen/interval_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

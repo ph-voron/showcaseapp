@@ -1,0 +1,55 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_expanded_toolbar_title_margin_start">48dp</dimen>
+    <dimen name="activity_expanded_toolbar_title_margin_end">64dp</dimen>
+    <dimen name="nav_header_vertical_spacing">20dp</dimen>
+    <dimen name="nav_header_height">127dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="progress_spinner_size">36dp</dimen>
+
+    <dimen name="splash_screen_icon_size">120dp</dimen>
+
+    <dimen name="nav_avatar_size">80dp</dimen>
+    <dimen name="dim_5dp">5dp</dimen>
+    <dimen name="dim_10dp">10dp</dimen>
+    <dimen name="dim_15dp">15dp</dimen>
+    <dimen name="dim_20dp">20dp</dimen>
+    <dimen name="dim_25dp">25dp</dimen>
+    <dimen name="dim_30dp">30dp</dimen>
+
+    <dimen name="interval_1">@dimen/dim_5dp</dimen>
+    <dimen name="interval_2">@dimen/dim_10dp</dimen>
+    <dimen name="interval_3">@dimen/dim_15dp</dimen>
+    <dimen name="interval_4">@dimen/dim_20dp</dimen>
+    <dimen name="interval_5">@dimen/dim_25dp</dimen>
+    <dimen name="interval_6">@dimen/dim_30dp</dimen>
+
+    <dimen name="text_size_1">12sp</dimen>
+    <dimen name="text_size_2">16sp</dimen>
+
+    <!--specific item dimens-->
+    <dimen name="about_activity_contact_height">35dp</dimen>
+    <dimen name="about_activity_header_height">140dp</dimen>
+    <dimen name="about_activity_icon_size">18dp</dimen>
+
+    <dimen name="product_details_activity_app_bar_height">200dp</dimen>
+    <dimen name="product_details_activity_food_category_icon_size">64dp</dimen>
+    <dimen name="product_details_activity_all_comments_button_height">40dp</dimen>
+
+    <dimen name="showcase_item_edge_margin">5dp</dimen>
+    <dimen name="showcase_item_image_size">150dp</dimen>
+    <dimen name="showcase_item_cart_button_height">40dp</dimen>
+
+    <!--specific layouts-->
+    <dimen name="cart_product_item_height">100dp</dimen>
+    <dimen name="cart_product_item_image_size">100dp</dimen>
+    <dimen name="review_item_min_height">48dp</dimen>
+    <dimen name="review_item_avatar_size">36dp</dimen>
+
+    <dimen name="edge_interval_def">@dimen/interval_4</dimen>
+
+
+    <dimen name="showcase_descr_label_width">65dp</dimen>
+</resources>

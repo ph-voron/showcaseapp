@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_search_white_48dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="app.voron.ph.showcaseapp.Views.SearchViewExt"
+        tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/action_cart"
+        android:title="@string/cart_activity_title"
+        android:icon="@drawable/ic_shopping_cart_white"
+        app:showAsAction="collapseActionView|ifRoom"/>
+</menu>

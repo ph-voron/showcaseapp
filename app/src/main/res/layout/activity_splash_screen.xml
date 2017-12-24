@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_1"
+    android:background="@color/colorBlue"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:paddingBottom="@dimen/splash_screen_icon_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_1"
+            android:visibility="gone"
+            android:textAllCaps="true"
+            style="@style/AppTitleWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/splash_screen_icon_size"
+            android:text="@string/app_title" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="0dp"
+        android:padding="@dimen/interval_1"
+        android:src="@drawable/ic_food_crab"
+        android:background="@drawable/circle_white_solid"
+        android:layout_width="@dimen/splash_screen_icon_size"
+        android:layout_height="@dimen/splash_screen_icon_size" />
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:visibility="gone"
+        android:layout_width="@dimen/splash_screen_icon_size"
+        android:layout_height="@dimen/splash_screen_icon_size"
+        android:src="@drawable/ic_food_chicken"
+        android:background="@drawable/circle_white_solid"
+        android:layout_marginStart="0dp"
+        android:padding="@dimen/interval_1"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/image_3"
+        android:visibility="gone"
+        android:src="@drawable/ic_food_tomato"
+        android:background="@drawable/circle_white_solid"
+        android:layout_width="@dimen/splash_screen_icon_size"
+        android:layout_height="@dimen/splash_screen_icon_size"
+        android:layout_marginStart="0dp"
+        android:padding="@dimen/interval_1"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/image_4"
+        android:visibility="gone"
+        android:src="@drawable/ic_food_hamburger"
+        android:background="@drawable/circle_white_solid"
+        android:layout_width="@dimen/splash_screen_icon_size"
+        android:layout_height="@dimen/splash_screen_icon_size"
+        android:layout_marginStart="0dp"
+        android:padding="@dimen/interval_1"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

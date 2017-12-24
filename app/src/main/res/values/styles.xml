@@ -1,0 +1,202 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--
+        <item name="android:windowEnterTransition">@transition/explode</item>
+        <item name="android:windowExitTransition">@transition/explode</item>
+
+
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform</item>
+            -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/drawable_splash_screen</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ActionBarTransparent" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!-- Text -->
+    <style name="TextBlack1">
+        <item name="android:textColor">@color/colorThemeMediumDark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextBlack2">
+        <item name="android:textColor">@color/colorThemeMediumDark</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextLabelBlue">
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextLabelDark">
+        <item name="android:textColor">@color/colorThemeMediumDark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextLabelLightGray">
+        <item name="android:textColor">@color/colorGrayLight</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextLabelDarkGray">
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextLabelReviewTotal">
+        <item name="android:textSize">40sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="BlueButtonCaption" parent="TextLabelBlue">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textColor">@color/colorThemeMediumDark</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextTitleSmall" parent="TextTitle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextOptionTitle" parent="TextLabelBlue">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextOptionValue" parent="TextLabelDarkGray">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextLabelHeader1" parent="TextTitle">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="TextLabelHeader2" parent="TextTitle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextLabelHeader3" parent="TextTitle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ShowcaseTitle" parent="TextTitle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextDescription" parent="TextLabelDarkGray">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextButtonLabelSmall" parent="TextLabelDark">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="EditTextDefault" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/text_size_2</item>
+    </style>
+
+    <style name="AppTitleWhite">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="RatingBarDefaultTheme">
+        <item name="colorControlActivated">@color/colorThemeMediumLight</item>
+        <item name="android:progressTint">@color/colorThemeMediumLight</item>
+    </style>
+
+    <style name="RatingBarGrayTheme">
+        <item name="colorControlActivated">@color/colorGrayLight</item>
+        <item name="android:progressTint">@color/colorDarkGray</item>
+    </style>
+
+    <style name="ShowcaseRatingBarSmall" parent="@style/Widget.AppCompat.RatingBar.Small">
+    </style>
+
+    <style name="RatingBarReviewsTotal" parent="@style/Widget.AppCompat.RatingBar.Indicator">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxHeight">36dp</item>
+        <item name="android:scaleX">0.7</item>
+        <item name="android:scaleY">0.7</item>
+    </style>
+
+    <!--Buttons-->
+    <style name="ButtonOrange" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_orange</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonGreen" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_green</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonOrangeHollow" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_orange_hollow</item>
+        <item name="android:textColor">@color/colorOrange</item>
+    </style>
+
+    <style name="ButtonAddToCartRect" parent="ButtonOrange">
+        <item name="android:drawableLeft">@drawable/add_to_cart_white_small</item>
+    </style>
+
+    <style name="ButtonRemoveFromCartRect" parent="ButtonOrangeHollow">
+        <item name="android:drawableLeft">@drawable/remove_shopping_cart_orange_small</item>
+    </style>
+
+    <style name="ButtonAddToCartRound" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorOrange</item>
+        <item name="android:src">@drawable/add_to_cart_white_small</item>
+    </style>
+
+    <style name="ButtonRemoveFromCartRound" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:src">@drawable/remove_shopping_cart_orange_small</item>
+    </style>
+
+    <style name="ButtonDoneAllRound" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="android:src">@drawable/ic_done_all</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="ButtonBlue" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorBlue</item>
+        <item name="colorButtonNormal">@color/colorBlue</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

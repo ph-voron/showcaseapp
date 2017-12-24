@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.voron.ph.showcaseapp.Activities.AboutAppActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_activity_header_height">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:src="@drawable/material_background_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerInParent="true"
+                android:textAppearance="@style/AppTitleWhite"
+                android:text="@string/app_title"
+                android:textAllCaps="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:background="@android:color/white"
+            app:contentPadding="@dimen/interval_2"
+            android:layout_margin="@dimen/interval_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/about_activity_label"
+                    android:textAppearance="@style/TextTitle"
+                    android:layout_marginBottom="@dimen/interval_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/text_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:background="@android:color/white"
+            app:contentPadding="@dimen/interval_2"
+            android:layout_margin="@dimen/interval_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/about_activity_contacts_label"
+                    android:layout_marginBottom="@dimen/interval_2"
+                    android:textAppearance="@style/TextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:id="@+id/button_contact"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="@dimen/interval_1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="@dimen/about_activity_contact_height">
+                    <ImageView
+                        android:src="@drawable/ic_person_black_48dp"
+                        android:tint="@color/colorBlue"
+                        android:layout_marginEnd="@dimen/interval_1"
+                        android:layout_width="@dimen/about_activity_icon_size"
+                        android:layout_height="@dimen/about_activity_icon_size" />
+                    <TextView
+                        android:text="@string/about_activity_contact_label1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/button_email"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="@dimen/interval_1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="@dimen/about_activity_contact_height">
+                    <ImageView
+                        android:src="@drawable/ic_email"
+                        android:tint="@color/colorBlue"
+                        android:layout_marginEnd="@dimen/interval_1"
+                        android:layout_width="@dimen/about_activity_icon_size"
+                        android:layout_height="@dimen/about_activity_icon_size" />
+                    <TextView
+                        android:text="@string/about_activity_contact_label2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/button_skype"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="@dimen/interval_1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="@dimen/about_activity_contact_height">
+                    <ImageView
+                        android:src="@drawable/ic_phone"
+                        android:tint="@color/colorBlue"
+                        android:layout_marginEnd="@dimen/interval_1"
+                        android:layout_width="@dimen/about_activity_icon_size"
+                        android:layout_height="@dimen/about_activity_icon_size" />
+                    <TextView
+                        android:text="@string/about_activity_contact_label3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/button_freelancim"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="@dimen/interval_1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="@dimen/about_activity_contact_height">
+                    <ImageView
+                        android:src="@drawable/ic_action_globe"
+                        android:tint="@color/colorBlue"
+                        android:layout_marginEnd="@dimen/interval_1"
+                        android:layout_width="@dimen/about_activity_icon_size"
+                        android:layout_height="@dimen/about_activity_icon_size" />
+                    <TextView
+                        android:text="@string/about_activity_contact_label4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

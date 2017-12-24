@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Taste it!</string>
+    <string name="app_title">Taste it!</string>
+    <!--MainMenu-->
+    <string name="home">Главная</string>
+    <string name="shopping_cart">Корзина</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="user_profile">Профиль</string>
+    <!--Activities-->
+    <string name="main_activity_title">Меню</string>
+    <string name="cart_activity_title">Корзина</string>
+    
+    <string name="product_details_activity_cooking_time_title">Время:</string>
+    <string name="product_details_activity_cost_title">Цена:</string>
+    <string name="product_details_activity_comments_title">Комментарии:</string>
+
+    <string name="ordering_activity_title">Оформление заказа</string>
+    <string name="ordering_activity_label_customer">Заказчик</string>
+    <string name="ordering_activity_phone_number">Контактный телефон</string>
+    <string name="ordering_activity_customer_name">Имя</string>
+    <string name="ordering_activity_delivery_address_label">Адрес доставки</string>
+    <string name="ordering_activity_street">Улица</string>
+    <string name="ordering_activity_house_number">Дом</string>
+    <string name="ordering_activity_building">Корпус</string>
+    <string name="ordering_activity_apartments_number">Квартира</string>
+    <string name="ordering_activity_ordering_comments">Комментарий к заказу</string>
+    <string name="ordering_activity_ordering_submit_button">Оформить заказ</string>
+
+    <string name="about_activity">О приложении</string>
+    <string name="about_activity_label">О приложении:</string>
+    <string name="about_activity_contacts_label">Контакты:</string>
+    <string name="about_activity_content" formatted="false">
+        <![CDATA[
+        Это демонстрационное приложение - клиент для заказа еды через интернет.
+        В приложении есть каталог блюд с поиском, карточки с детальной информацией о блюде, станица
+        оценок и отзывов, корзина, а так же страница для офромления заказа. Все механизмы приложения полностью асинхронны,
+        подгрузка списков, картинок элементов и т.д. В качестве источника данных можно использовать как веб-сервис,
+        так и внутреннюю БД, а так же например firebase или любой другой, который потребуется.
+        <br/>
+        <br/>
+        Если вас заинтересовало приложение и вы хотите заказать подобное, свяжитесь со мной!😀
+        ]]>
+    </string>
+    <string name="about_activity_contact_label1">Филипп Воронов</string>
+    <string name="about_activity_contact_label2">Email: work.lance.com@yandex.ru</string>
+    <string name="about_activity_contact_label3">Skype: worklance88</string>
+    <string name="about_activity_contact_label4">freelansim.ru</string>
+    <string name="about_activity_contact_2">work.lance.com@yandex.ru</string>
+    <string name="about_activity_contact_3">worklance88</string>
+    <string name="about_activity_contact_4">https://freelansim.ru/freelancers/worklance</string>
+    <!--Fragments-->
+    <string name="cart_empty_fragment_title">Ваша корзина пуста!</string>
+    <string name="cart_list_total_cost">Итого: </string>
+    <!--Notifications-->
+    <string name="add_to_cart_notification">Добавлено в <b>корзину</b> (%s)</string>
+    <string name="add_to_cart_notification_action">Смотреть</string>
+    <string name="clear_cart_notification">Очистить корзину?</string>
+    <string name="remove_from_cart_notification">Удалить товар из корзины?</string>
+
+    <!--Errors-->
+    <string name="error_showcase_items">Невозможно получить список!</string>
+    <string name="error_field_required">Обязательное поле</string>
+    <string name="error_field_requires_3_symbols">Поле должно содержать не менее 3 символов</string>
+    <string name="error_field_requires_6_symbols">Поле должно содержать не менее 6 символов</string>
+    <string name="error_submit_order">Невозможно обработать заказ: %s</string>
+    <!--Common-->
+    <string name="common_yes">Да</string>
+    <string name="common_no">Нет</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_all">Все</string>
+
+
+    <!--CartActivity-->
+    <string name="action_clear_cart">Очистить корзину</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_caption">Login</string>
+    <string name="search_title">Поиск</string>
+
+    <string name="long_latin">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+
+    <string name="all_comments">Все комментарии</string>
+
+
+</resources>

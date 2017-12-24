@@ -1,0 +1,42 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/drawable_avatar_circle"
+        android:src="@drawable/ic_person_black_48dp"
+        android:tint="@color/colorThemeMediumDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_below="@id/avatar"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dim_15dp"
+        android:paddingLeft="@dimen/dim_30dp"
+        android:paddingRight="@dimen/dim_30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="@string/login_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:text="Регистрация"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

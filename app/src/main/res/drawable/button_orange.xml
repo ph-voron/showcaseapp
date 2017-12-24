@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/colorOrangeDark">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android" >
+            <item
+                android:drawable="@drawable/btn_orange_default_shape"
+                android:state_checked="false"/>
+            <item
+                android:drawable="@drawable/btn_orange_default_shape"
+                android:state_checked="true" />
+            <item
+                android:drawable="@drawable/btn_orange_dark_shape" />
+        </selector>
+    </item>
+</ripple>
