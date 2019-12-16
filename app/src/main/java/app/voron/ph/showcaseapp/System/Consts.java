@@ -1,6 +1,6 @@
 package app.voron.ph.showcaseapp.System;
 
-import android.support.v4.util.Pair;
+import androidx.core.util.Pair;
 
 /**
  * Created by TJack on 22.10.2017.

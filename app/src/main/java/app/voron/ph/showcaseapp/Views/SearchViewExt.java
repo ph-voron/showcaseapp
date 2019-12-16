@@ -1,7 +1,8 @@
 package app.voron.ph.showcaseapp.Views;
 
 import android.content.Context;
-import android.support.v7.widget.SearchView;
+
+import androidx.appcompat.widget.SearchView;
 
 /**
  * Created by TJack on 26.10.2017.

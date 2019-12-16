@@ -1,12 +1,13 @@
 package app.voron.ph.showcaseapp.Views;
 
 import android.graphics.Bitmap;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import app.voron.ph.showcaseapp.R;
 import app.voron.ph.showcaseapp.Utilities.FormatHelper;

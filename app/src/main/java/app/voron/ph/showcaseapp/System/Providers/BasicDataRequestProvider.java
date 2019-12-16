@@ -3,7 +3,6 @@ package app.voron.ph.showcaseapp.System.Providers;
 import android.graphics.Bitmap;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.google.gson.Gson;
